@@ -1,0 +1,148 @@
+.home{
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.intro{
+    max-width: 540px;
+    text-align: center;
+}
+.home_img{
+    max-width: 15rem;
+margin-bottom: 1.5rem;
+}
+
+.home_name{
+    font-size: var(--h1-font-size);
+    font-weight: var(--font-bold);
+    margin-bottom: 0.5rem;
+}
+.home_sos{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ column-gap: 1.75rem;
+ margin: 1.5rem 0;
+}
+
+.home_sos_link{
+    color: var(--title-color);
+    font-size: 2rem;
+    transition: .3s;
+}
+.home_sos_link:hover{
+    color: hsl(43, 100%, 68%);
+    
+}
+
+.scroll_down{
+    position: absolute;
+    bottom: 2.5rem;
+    left: auto;
+    width: 100%;
+}
+.home_scoll_name{
+    font-size: var(--small-font-size);
+}
+.mouse{
+    border: 2px solid var(--text-color);
+    display: block;
+    height: 1.6rem;
+    width: 1.25rem;
+    margin: 0.75rem auto auto auto;
+    border-radius: 1rem;
+    position: relative;
+    
+}
+@keyframes animouse {
+    0%{top: 29%;}
+    15%{top: 50%;}
+    50%{top: 50%;}
+    100%{top: 29%;}
+}
+
+.wheel{
+    background-color: var(--title-color);
+    border-radius: 100%;
+    width: 0.25rem;
+    height: 0.25rem;
+    position: absolute;
+    top: .5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: animouse 2s linear infinite;
+    
+}
+
+.Shapes{
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+z-index: -10;
+
+}
+.shape{
+ position: absolute; 
+ width: 40px;
+  height: 40px;   
+}
+.s1{
+    left: 2%;
+    top: 10%;
+    
+
+}
+.s2{
+    left: 65%;
+    top: 30%;
+    rotate: 26deg;
+}
+.s3{
+    left: 74%;
+    top: 69%;
+    rotate: 30deg;
+}
+.s4{
+    left: 6%;
+    top: 80%;
+    rotate: 50deg;
+
+}
+.s5{
+    left: 22%;
+    top: 40%;
+    
+}
+.s6{
+    left: 84%;
+    top: 78%;
+    rotate: 26deg;
+}
+.s7{
+    left: 20%;
+    top: 25%;
+    
+
+}
+.s8{
+    left: 84%;
+    top: 20%;
+    rotate: 26deg;
+}
+.s9{
+    left: 8%;
+    top: 57%;
+    rotate: 26deg;
+}
+.s10{
+    left: 70%;
+    top: 46%;
+    rotate: 147deg;
+
+}
